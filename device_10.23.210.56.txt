@@ -1,0 +1,84 @@
+# Nmap 7.95 scan initiated Mon Sep 22 18:21:19 2025 as: /usr/lib/nmap/nmap -sS -p 1-65535 -A -oN /home/yash/network_scan_task/device_10.23.210.56.txt 10.23.210.56
+Nmap scan report for 10.23.210.56
+Host is up (0.00062s latency).
+Not shown: 65526 filtered tcp ports (no-response)
+PORT      STATE SERVICE       VERSION
+6850/tcp  open  iccrushmore?
+9012/tcp  open  ssl/websocket WebSocket++ 0.8.1
+| ssl-cert: Subject: commonName=Peter Thorson/organizationName=Zaphoyd Studios/stateOrProvinceName=Illinois/countryName=US
+| Not valid before: 2011-11-15T21:20:06
+|_Not valid after:  2012-11-14T21:20:06
+|_ssl-date: TLS randomness does not represent time
+9013/tcp  open  websocket     WebSocket++ 0.8.1
+49726/tcp open  unknown
+49727/tcp open  unknown
+49728/tcp open  unknown
+49731/tcp open  unknown
+49733/tcp open  unknown
+49734/tcp open  unknown
+6 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port49726-TCP:V=7.95%I=7%D=9/22%Time=68D1486A%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0
+SF:\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GenericLines,40,"\x8e'\xe5\xac\x05\0
+SF:\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1
+SF:f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\
+SF:0\x19\0\x1b\0\x1d\0\x1f\0")%r(Help,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\
+SF:xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port49727-TCP:V=7.95%I=7%D=9/22%Time=68D1486A%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0
+SF:\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GenericLines,40,"\x8e'\xe5\xac\x05\0
+SF:\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1
+SF:f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\
+SF:0\x19\0\x1b\0\x1d\0\x1f\0")%r(Help,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\
+SF:xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port49728-TCP:V=7.95%I=7%D=9/22%Time=68D1486A%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0
+SF:\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GenericLines,40,"\x8e'\xe5\xac\x05\0
+SF:\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1
+SF:f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\
+SF:0\x19\0\x1b\0\x1d\0\x1f\0")%r(Help,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\
+SF:xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port49731-TCP:V=7.95%I=7%D=9/22%Time=68D1486A%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0
+SF:\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GenericLines,40,"\x8e'\xe5\xac\x05\0
+SF:\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1
+SF:f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\
+SF:0\x19\0\x1b\0\x1d\0\x1f\0")%r(Help,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\
+SF:xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port49733-TCP:V=7.95%I=7%D=9/22%Time=68D1486A%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0
+SF:\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GenericLines,40,"\x8e'\xe5\xac\x05\0
+SF:\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1
+SF:f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\
+SF:0\x19\0\x1b\0\x1d\0\x1f\0")%r(Help,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\
+SF:xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port49734-TCP:V=7.95%I=7%D=9/22%Time=68D1486A%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0
+SF:\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r(GenericLines,40,"\x8e'\xe5\xac\x05\0
+SF:\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1
+SF:f\0\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\
+SF:0\x19\0\x1b\0\x1d\0\x1f\0")%r(GetRequest,20,"\x8e'\xe5\xac\x05\0\x07\0\
+SF:t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0")%r
+SF:(HTTPOptions,20,"\x8e'\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x1
+SF:3\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0");
+MAC Address: 94:BB:43:4E:24:34 (AzureWave Technology)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 11|10|2008 (91%), FreeBSD 6.X (88%)
+OS CPE: cpe:/o:microsoft:windows_11 cpe:/o:freebsd:freebsd:6.2 cpe:/o:microsoft:windows_10 cpe:/o:microsoft:windows_server_2008::beta3 cpe:/o:microsoft:windows_server_2008
+Aggressive OS guesses: Microsoft Windows 11 21H2 (91%), FreeBSD 6.2-RELEASE (88%), Microsoft Windows 10 (86%), Microsoft Windows Server 2008 or 2008 Beta 3 (85%), Microsoft Windows 10 1607 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.62 ms 10.23.210.56
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 22 18:31:52 2025 -- 1 IP address (1 host up) scanned in 632.45 seconds
