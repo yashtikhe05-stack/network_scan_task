@@ -1,10 +1,10 @@
-# Nmap 7.95 scan initiated Mon Sep 22 18:11:27 2025 as: /usr/lib/nmap/nmap --privileged -sn -oN /home/yash/network_scan_task/active_devices.txt 10.23.210.0/24
-Nmap scan report for 10.23.210.56
+# Nmap 7.95 scan initiated Mon Sep 22 18:11:27 2025 as: /usr/lib/nmap/nmap --privileged -sn -oN /home/yash/network_scan_task/active_devices.txt  10.22.211.57/24
+Nmap scan report for 10.22.211.57
 Host is up (0.00037s latency).
 MAC Address: 94:BB:43:4E:24:34 (AzureWave Technology)
-Nmap scan report for 10.23.210.230
+Nmap scan report for  10.22.211.57
 Host is up (0.028s latency).
 MAC Address: CA:0E:36:EB:F3:ED (Unknown)
-Nmap scan report for 10.23.210.2
+Nmap scan report for 10.22.212.2
 Host is up.
 # Nmap done at Mon Sep 22 18:11:30 2025 -- 256 IP addresses (3 hosts up) scanned in 2.72 seconds
